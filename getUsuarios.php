@@ -1,7 +1,7 @@
 <?php
-
-    $user = $_GET['user'];
-    $pwd = $_GET['pwd'];
+	//Extraemos el usuario y contraseña del usuario para conectarse a la base de datos
+	$user = $_GET['user'];
+	$pwd = $_GET['pwd'];
 
 	// Configuración de la base de datos
 	$servername = "https://djm25.synology.me/phpmyadmin/";
