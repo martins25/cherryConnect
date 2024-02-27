@@ -19,7 +19,7 @@
 
 	// Consulta
 	$sql = "SELECT * FROM Usuario";
-    $result = $conn->query($sql);
+    	$result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
         $usuarios = array();
